@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+.ant-input-status-error {
+    border-width: 2px !important;
+}
+
+.ant-form-item {
+    margin-bottom: 0 !important;
+}
+
+.ant-input-outlined {
+    border-color: darkgray !important;
+}
+
+.ant-input-outlined::placeholder {
+    color: darkgray !important;
+}
+
+.ant-checkbox-inner,
+.ant-checkbox-input {
+    margin-left: 7px;
+    transform: scale(1.2);
+    margin-top: 1px;
+    margin-right: 5px;
+    border-color: darkgray !important;
+    border-radius: 2px !important;
+    border-width: 2px !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: rgb(96, 26, 121) !important;
+    border-color: rgba(96, 26, 121, 0.319) !important;
+}
